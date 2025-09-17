@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "M18_USB_Interface")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Schematic/M18_USB_Interface.kicad_sym")(options "")(descr ""))
+)

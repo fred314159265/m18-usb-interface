@@ -1,0 +1,208 @@
+(footprint "M18_Battery_Interface"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4e2e874c-4a8a-4c2c-8dd5-57249afbeacd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "M18"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f0cf5384-b201-449b-b05e-6e99abd9803b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f67a416b-afa4-4a76-8c8b-b798052247bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c825096-4d4b-4c4c-8ad6-890728ad5c4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -16.25 13.25)
+		(end -16.25 -13.25)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1296ceb4-ef84-4efc-ac45-8d154b95c93f")
+	)
+	(fp_line
+		(start -15.75 -13.75)
+		(end 15.75 -13.75)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "91245c33-aaa3-47f9-9a04-54689e956487")
+	)
+	(fp_line
+		(start 15.75 13.75)
+		(end -15.75 13.75)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5dec72a3-cfc8-4a6d-ac00-127d6218f491")
+	)
+	(fp_line
+		(start 16.25 -13.25)
+		(end 16.25 13.25)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f53bf92e-9d8c-4258-9c33-92335028a019")
+	)
+	(fp_arc
+		(start -16.25 -13.25)
+		(mid -16.103553 -13.603553)
+		(end -15.75 -13.75)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "307ab61e-74d2-42ac-b5b2-33bfe3592620")
+	)
+	(fp_arc
+		(start -15.75 13.75)
+		(mid -16.103553 13.603553)
+		(end -16.25 13.25)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bfab2b65-1d1e-45cd-a6c6-6a413ff7f440")
+	)
+	(fp_arc
+		(start 15.75 -13.75)
+		(mid 16.103553 -13.603553)
+		(end 16.25 -13.25)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "94e392cf-5037-4dcb-8d03-72bf828446b3")
+	)
+	(fp_arc
+		(start 16.25 13.25)
+		(mid 16.103553 13.603553)
+		(end 15.75 13.75)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "764db313-baf6-4b45-91ee-6eb682ec5577")
+	)
+	(fp_rect
+		(start -16.5 -14)
+		(end 16.5 14)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9a3dcd34-8250-40cd-bd2b-be91b0b9d2da")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "46eab8fa-326e-438f-8dcf-5133ac1aec1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -11.25 -6.25)
+		(size 2.2 9.3)
+		(drill oval 1.2 8.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28c25fa8-8c32-4454-bb08-62dc0826e9f1")
+	)
+	(pad "2" thru_hole oval
+		(at -5.63 -2.5)
+		(size 2.2 9.3)
+		(drill oval 1.2 8.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d6300519-dfc9-4b84-af71-ef94fcffeb3b")
+	)
+	(pad "4" thru_hole oval
+		(at 5.63 -2.5)
+		(size 2.2 9.3)
+		(drill oval 1.2 8.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8f581a5e-995f-4ce3-a0eb-5a1c89e342b7")
+	)
+	(pad "5" thru_hole oval
+		(at 11.25 -6.25)
+		(size 2.2 9.3)
+		(drill oval 1.2 8.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4e1de25b-2a55-4b4b-867a-dded4290cb83")
+	)
+	(embedded_fonts no)
+	(model "Z:/Documents/3D Printing/Self Designed MCAD/2025/Milwaukee_Battery_Interface/Interface^Milwaukee_M18_Battery_Interface.STEP"
+		(offset
+			(xyz 0 0 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 180)
+		)
+	)
+)
