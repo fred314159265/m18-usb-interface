@@ -75,7 +75,7 @@ Fabrication files for v1.0:
 - [Release v1.0](https://github.com/fred314159265/m18-usb-interface/releases/tag/v1.0), with the gerber zip, schematic PDF, and FT_Prog template attached
 - Gerbers and assembly files in [`m18-usb-interface-pcb/Releases/v1.0/production/`](m18-usb-interface-pcb/Releases/v1.0/production)
 - [Schematic PDF](m18-usb-interface-pcb/Releases/v1.0/m18-usb-interface-pcb_v1.0.pdf)
-- [Interactive BOM](m18-usb-interface-pcb/bom/ibom.html)
+- [Interactive BOM](https://fred314159265.github.io/m18-usb-interface/m18-usb-interface-pcb/bom/ibom.html)
 
 <img src="Images/pcb-top.png" alt="Top view of the assembled v1.0 board" width="420">
 
